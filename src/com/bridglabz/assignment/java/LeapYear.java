@@ -15,13 +15,13 @@ public class LeapYear {
 		if(year>=1582) 
 		{
 			if(year%4==0 && year %100 !=0) {
-				System.out.println("leap year");
+				System.out.println("The year entered "+year+" is a leap year");
 			}
-			else if(year%100==0 && year%400==0) {
-				System.out.println("leap year");
+			else if(year%400==0) {
+				System.out.println("The year entered "+year+" is a leap year");
 			}
 			else {
-				System.out.println("not leap year");
+				System.out.println("The year entered "+year+" is not a leap year");
 			}
 		}
 		else 
