@@ -5,24 +5,24 @@ import java.util.Scanner;
 public class ElementOfArray {	
 
 	public static void main(String[] args) {
-		Scanner scan =new Scanner(System.in);
-		System.out.println("Enter array size :");		
-		int size = scan.nextInt();
+//		Scanner scan =new Scanner(System.in);
+//		System.out.println("Enter array size :");		
+//		int size = scan.nextInt();
+//		
+//		Object sub[] = new Object[size];
+//		
+//		for(int i =0;i<size;i++)
+//		{
+//			System.out.println("Enter elements to add in array of index :"+i);
+//			sub[i]=scan.next();
+//		}
 		
-		Object sub[] = new Object[size];
-		
-		for(int i =0;i<size;i++)
-		{
-			System.out.println("Enter elements to add in array of index :"+i);
-			sub[i]=scan.next();
-		}
-		
-//		Object sub[] = {"sachin",10,"prasant",20,"alok",23.43,"ak"};
+		Object sub[] = {"sachin",10,"prasant",20,"alok",23.43,"ak"};
 		
 		for(int i=0;i<sub.length;i++)
 		{
 			System.out.println(sub[i]);
-//			System.out.println(((Object)sub[i]).getClass().getSimpleName());
+			System.out.println(((Object)sub[i]).getClass().getSimpleName());
 		}
 			
 
